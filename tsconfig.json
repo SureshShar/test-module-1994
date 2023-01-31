@@ -1,0 +1,39 @@
+{
+    "compilerOptions": {
+      "isolatedModules": true,
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "useDefineForClassFields": true,
+      "sourceMap": true,
+      "checkJs": true,
+      "allowUnusedLabels": false,
+      "allowUnreachableCode": false,
+      "noImplicitAny": true,
+      "noImplicitReturns": true,
+      "noImplicitThis": true,
+      "exactOptionalPropertyTypes": true,
+      "noFallthroughCasesInSwitch": true,
+      "noImplicitOverride": true,
+      "noPropertyAccessFromIndexSignature": false,
+      "noUncheckedIndexedAccess": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "lib": [
+        "esnext",
+        "dom",
+        "dom.iterable",
+        "scripthost"
+      ],
+      "types": [
+        "node"
+      ]
+    },
+    "exclude": [
+      "node_modules",
+      "**/*/dist/*"
+    ],
+    "extends": "./.nuxt/tsconfig.json",
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "display": "Strictest"
+}
+
